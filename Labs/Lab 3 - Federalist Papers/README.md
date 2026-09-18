@@ -9,6 +9,4 @@ Author: Shiqi Wu
 
 ## Data and reproducibility
 
-The notebook reads the instructor-provided authorship data and 85 essay texts directly from https://dlsun.github.io/pods/data/federalist/. No separate dataset files are included. Re-running the notebook requires internet access and Python with pandas, scikit-learn, and plotnine.
-
-The HTML report can be viewed independently without re-running the code or downloading the data.
+The notebook reads the instructor-provided authorship data and 85 essay texts directly from https://dlsun.github.io/pods/data/federalist/.
