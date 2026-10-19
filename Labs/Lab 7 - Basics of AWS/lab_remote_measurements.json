@@ -1,0 +1,16 @@
+{
+  "machine": {
+    "computer name": "default",
+    "physical CPU cores": 1,
+    "logical CPUs (vCPUs in the cloud)": 2,
+    "total RAM (GB)": 4.0,
+    "available RAM right now (GB)": 1.4,
+    "work disk, total (GB)": 5.3,
+    "work disk, free (GB)": 5.2
+  },
+  "source bytes in S3": 558336146,
+  "rows kept": 14612,
+  "DataFrame bytes": 2761800,
+  "extract seconds": 25.51,
+  "exported bytes": 1089
+}

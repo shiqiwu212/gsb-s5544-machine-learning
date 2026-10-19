@@ -1,0 +1,21 @@
+market,year,days_reported,hot_days
+Phoenix,2015,365,147
+Phoenix,2016,366,144
+Phoenix,2017,365,153
+Phoenix,2018,365,152
+Phoenix,2019,365,134
+Phoenix,2020,366,172
+Phoenix,2021,365,138
+Phoenix,2022,365,157
+Phoenix,2023,365,159
+Phoenix,2024,366,170
+San Luis Obispo,2015,365,10
+San Luis Obispo,2016,366,5
+San Luis Obispo,2017,365,12
+San Luis Obispo,2018,365,6
+San Luis Obispo,2019,365,4
+San Luis Obispo,2020,366,18
+San Luis Obispo,2021,365,2
+San Luis Obispo,2022,365,6
+San Luis Obispo,2023,365,4
+San Luis Obispo,2024,366,6
