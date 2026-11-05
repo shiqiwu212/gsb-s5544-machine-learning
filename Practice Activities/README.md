@@ -18,3 +18,5 @@
 - [Practice Activity 9-2: Model Error, Cross-Validation, Pipelines](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%209-2%20-%20Model%20Error%2C%20Cross-Validation%2C%20Pipelines)
 - [Practice Activity 10-1: Model Selection and Hyperparameter Tuning](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2010-1%20-%20Model%20Selection%20and%20Hyperparameter%20Tuning)
 - [Practice Activity 10-2: Penalized regression](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2010-2%20-%20Penalized%20regression)
+- [Practice Activity 11-1: Introduction to Classification](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2011-1%20-%20Introduction%20to%20Classification)
+
