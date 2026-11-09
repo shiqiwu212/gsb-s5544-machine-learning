@@ -1,0 +1,51 @@
+Column,Type,Meaning and source
+RespondentID,identifier,"NHANES participant sequence number (SEQN), retained only for joining files."
+AgeYears,numerical,"Age in years at screening (RIDAGEYR, DEMO_J)."
+SexRecorded,categorical,"Recorded sex, male/female (RIAGENDR, DEMO_J)."
+RaceEthnicityRecorded,categorical,"NHANES recorded race/ethnicity category (RIDRETH3, DEMO_J)."
+EducationLevel,categorical,"Adult education category (DMDEDUC2, DEMO_J)."
+MaritalStatus,categorical,"Adult marital-status category (DMDMARTL, DEMO_J)."
+FamilyIncomePovertyRatio,numerical,"Family income divided by the federal poverty threshold (INDFMPIR, DEMO_J)."
+Height_cm,numerical,"Measured standing height in centimeters (BMXHT, BMX_J)."
+Weight_kg,numerical,"Measured body weight in kilograms (BMXWT, BMX_J)."
+BMI_kg_m2,numerical,"Body mass index in kg/m2, calculated from measured height and weight (BMXBMI, BMX_J)."
+WaistCircumference_cm,numerical,"Measured waist circumference in centimeters (BMXWAIST, BMX_J)."
+DXAPercentBodyFat,numerical,"Total percent body fat from whole-body DXA (DXDTOPF, DXX_J)."
+SmokingStatus,categorical,"Derived from SMQ020 (ever smoked 100 cigarettes) and SMQ040 (current cigarette use) in SMQ_J: Never, Former, or Current."
+UsualWeekdaySleepHours,numerical,"Derived usual hours of main sleep on weekdays/workdays (SLD012, SLQ_J), rounded to the nearest half hour. It does not include naps."
+AverageSystolicBP_mmHg,numerical,Mean of all available systolic readings BPXSY1-BPXSY4 in BPX_J. Readings were taken in the MEC after a seated rest period.
+TotalCholesterol_mg_dL,numerical,"Total cholesterol from enzymatic laboratory assay (LBXTC, TCHOL_J), mg/dL."
+HbA1c_percent,numerical,"Glycohemoglobin percentage from laboratory assay (LBXGH, GHB_J)."
+SelfRatedHealth,categorical,"Self-rated general health from HUQ010 in HUQ_J: Excellent, Very good, Good, Fair, or Poor."
+,,
+Original sources,,
+,,
+NHANES 2017-2018 Dual-Energy X-ray Absorptiometry Whole Body Data (DXX_J): https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DXX_J.htm,,
+,,
+Demographics (DEMO_J): https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm,,
+,,
+Body Measures (BMX_J): https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm,,
+,,
+Smoking - Cigarette Use (SMQ_J): https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQ_J.htm,,
+,,
+Sleep Disorders (SLQ_J): https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SLQ_J.htm,,
+,,
+Blood Pressure (BPX_J): https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm,,
+,,
+Total Cholesterol (TCHOL_J): https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TCHOL_J.htm,,
+,,
+Glycohemoglobin (GHB_J): https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GHB_J.htm,,
+,,
+Hospital Utilization and Access to Care (HUQ_J): https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HUQ_J.htm,,
+,,
+Preparation,,
+,,
+"1. The original classroom file joined DXX_J, DEMO_J, and BMX_J using the unique participant identifier SEQN. It retained participants ages 20-59 with a nonmissing DXDTOPF result.",,
+,,
+"2. This update left-joins SMQ_J, SLQ_J, BPX_J, TCHOL_J, GHB_J, and HUQ_J using the same identifier. It retains all 2,250 original rows and preserves missing values.",,
+,,
+"3. SmokingStatus is derived as Never (SMQ020=2), Current (SMQ020=1 and SMQ040=1 or 2), or Former (SMQ020=1 and SMQ040=3). Values missing because of nonresponse or an unexpected code remain missing.",,
+,,
+4. AverageSystolicBP_mmHg is the row mean of all nonmissing BPXSY1 through BPXSY4 readings. The original reading variables are not retained.,,
+,,
+"5. No survey weights were applied to the classroom graphs or models. For official U.S. estimates, use the appropriate NHANES examination weights and complex-survey procedures.",,
