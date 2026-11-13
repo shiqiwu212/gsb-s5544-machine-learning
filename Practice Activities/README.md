@@ -20,4 +20,5 @@
 - [Practice Activity 10-2: Penalized regression](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2010-2%20-%20Penalized%20regression)
 - [Practice Activity 11-1: Introduction to Classification](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2011-1%20-%20Introduction%20to%20Classification)
 - [Practice Activity 11-2: Classification Models](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2011-2%20-%20Classification%20Models)
+- [Practice Activity 12-1: Linear Classifiers](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2012-1%20-%20Linear%20Classifiers)
 
