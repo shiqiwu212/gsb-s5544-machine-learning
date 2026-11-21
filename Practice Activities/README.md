@@ -21,4 +21,5 @@
 - [Practice Activity 11-1: Introduction to Classification](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2011-1%20-%20Introduction%20to%20Classification)
 - [Practice Activity 11-2: Classification Models](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2011-2%20-%20Classification%20Models)
 - [Practice Activity 12-1: Linear Classifiers](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2012-1%20-%20Linear%20Classifiers)
+- [Practice Activity 13-1: Multiclass Classification](https://github.com/shiqiwu212/gsb-s5544-machine-learning/tree/main/Practice%20Activities/Practice%20Activity%2013-1%20-%20Multiclass%20Classification)
 
